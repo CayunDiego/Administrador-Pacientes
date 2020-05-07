@@ -1,0 +1,16 @@
+{
+  "name": "fullstackjs-desktop",
+  "version": "1.0.0",
+  "description": "Aplicacion de Electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder -w"
+  },
+  "author": "Diego Cayun Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.4",
+    "electron-builder": "^22.6.0"
+  }
+}
